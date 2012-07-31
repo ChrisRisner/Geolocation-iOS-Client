@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103E229A1587BD5400A9EAE9 /* NewPOIViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103E22991587BD5400A9EAE9 /* NewPOIViewControllerViewController.m */; };
+		103E22A91587C6B300A9EAE9 /* ServiceCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 103E22A81587C6B300A9EAE9 /* ServiceCaller.m */; };
+		103E22AC1587C72F00A9EAE9 /* StateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 103E22AB1587C72F00A9EAE9 /* StateObject.m */; };
+		10BDF1BD1581438300444DE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BDF1BC1581438300444DE2 /* UIKit.framework */; };
+		10BDF1BF1581438300444DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BDF1BE1581438300444DE2 /* Foundation.framework */; };
+		10BDF1C11581438300444DE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BDF1C01581438300444DE2 /* CoreGraphics.framework */; };
+		10BDF1C71581438300444DE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF1C51581438300444DE2 /* InfoPlist.strings */; };
+		10BDF1C91581438300444DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF1C81581438300444DE2 /* main.m */; };
+		10BDF1CD1581438300444DE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF1CC1581438300444DE2 /* AppDelegate.m */; };
+		10BDF1D01581438300444DE2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BDF1CE1581438300444DE2 /* MainStoryboard.storyboard */; };
+		10BDF1D31581438300444DE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF1D21581438300444DE2 /* ViewController.m */; };
+		10BDF1DA158143B200444DE2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BDF1D9158143B200444DE2 /* CoreLocation.framework */; };
+		10BDF1DC158143BB00444DE2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BDF1DB158143BB00444DE2 /* MapKit.framework */; };
+		10BDF1DF1581443700444DE2 /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF1DE1581443700444DE2 /* CoreLocationController.m */; };
+		10BDF2441582517C00444DE2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF2431582517C00444DE2 /* Constants.m */; };
+		10BDF24715825A3D00444DE2 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BDF24615825A3D00444DE2 /* MapAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		103E22981587BD5400A9EAE9 /* NewPOIViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPOIViewControllerViewController.h; sourceTree = "<group>"; };
+		103E22991587BD5400A9EAE9 /* NewPOIViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPOIViewControllerViewController.m; sourceTree = "<group>"; };
+		103E22A71587C6B300A9EAE9 /* ServiceCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCaller.h; sourceTree = "<group>"; };
+		103E22A81587C6B300A9EAE9 /* ServiceCaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCaller.m; sourceTree = "<group>"; };
+		103E22AA1587C72F00A9EAE9 /* StateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateObject.h; sourceTree = "<group>"; };
+		103E22AB1587C72F00A9EAE9 /* StateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateObject.m; sourceTree = "<group>"; };
+		10BDF1B81581438300444DE2 /* geodemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geodemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BDF1BC1581438300444DE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10BDF1BE1581438300444DE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10BDF1C01581438300444DE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10BDF1C41581438300444DE2 /* geodemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geodemo-Info.plist"; sourceTree = "<group>"; };
+		10BDF1C61581438300444DE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10BDF1C81581438300444DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10BDF1CA1581438300444DE2 /* geodemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "geodemo-Prefix.pch"; sourceTree = "<group>"; };
+		10BDF1CB1581438300444DE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10BDF1CC1581438300444DE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10BDF1CF1581438300444DE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		10BDF1D11581438300444DE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10BDF1D21581438300444DE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10BDF1D9158143B200444DE2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		10BDF1DB158143BB00444DE2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		10BDF1DD1581443700444DE2 /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationController.h; sourceTree = "<group>"; };
+		10BDF1DE1581443700444DE2 /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationController.m; sourceTree = "<group>"; };
+		10BDF2421582517C00444DE2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		10BDF2431582517C00444DE2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		10BDF24515825A3D00444DE2 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		10BDF24615825A3D00444DE2 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BDF1B51581438300444DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF1DC158143BB00444DE2 /* MapKit.framework in Frameworks */,
+				10BDF1DA158143B200444DE2 /* CoreLocation.framework in Frameworks */,
+				10BDF1BD1581438300444DE2 /* UIKit.framework in Frameworks */,
+				10BDF1BF1581438300444DE2 /* Foundation.framework in Frameworks */,
+				10BDF1C11581438300444DE2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BDF1AD1581438300444DE2 = {
+			isa = PBXGroup;
+			children = (
+				10BDF1DB158143BB00444DE2 /* MapKit.framework */,
+				10BDF1D9158143B200444DE2 /* CoreLocation.framework */,
+				10BDF1C21581438300444DE2 /* geodemo */,
+				10BDF1BB1581438300444DE2 /* Frameworks */,
+				10BDF1B91581438300444DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10BDF1B91581438300444DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF1B81581438300444DE2 /* geodemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10BDF1BB1581438300444DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF1BC1581438300444DE2 /* UIKit.framework */,
+				10BDF1BE1581438300444DE2 /* Foundation.framework */,
+				10BDF1C01581438300444DE2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10BDF1C21581438300444DE2 /* geodemo */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF1CB1581438300444DE2 /* AppDelegate.h */,
+				10BDF1CC1581438300444DE2 /* AppDelegate.m */,
+				10BDF1CE1581438300444DE2 /* MainStoryboard.storyboard */,
+				10BDF1D11581438300444DE2 /* ViewController.h */,
+				10BDF1D21581438300444DE2 /* ViewController.m */,
+				10BDF1C31581438300444DE2 /* Supporting Files */,
+				10BDF1DD1581443700444DE2 /* CoreLocationController.h */,
+				10BDF1DE1581443700444DE2 /* CoreLocationController.m */,
+				10BDF2421582517C00444DE2 /* Constants.h */,
+				10BDF2431582517C00444DE2 /* Constants.m */,
+				10BDF24515825A3D00444DE2 /* MapAnnotation.h */,
+				10BDF24615825A3D00444DE2 /* MapAnnotation.m */,
+				103E22981587BD5400A9EAE9 /* NewPOIViewControllerViewController.h */,
+				103E22991587BD5400A9EAE9 /* NewPOIViewControllerViewController.m */,
+				103E22A71587C6B300A9EAE9 /* ServiceCaller.h */,
+				103E22A81587C6B300A9EAE9 /* ServiceCaller.m */,
+				103E22AA1587C72F00A9EAE9 /* StateObject.h */,
+				103E22AB1587C72F00A9EAE9 /* StateObject.m */,
+			);
+			path = geodemo;
+			sourceTree = "<group>";
+		};
+		10BDF1C31581438300444DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10BDF1C41581438300444DE2 /* geodemo-Info.plist */,
+				10BDF1C51581438300444DE2 /* InfoPlist.strings */,
+				10BDF1C81581438300444DE2 /* main.m */,
+				10BDF1CA1581438300444DE2 /* geodemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10BDF1B71581438300444DE2 /* geodemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BDF1D61581438300444DE2 /* Build configuration list for PBXNativeTarget "geodemo" */;
+			buildPhases = (
+				10BDF1B41581438300444DE2 /* Sources */,
+				10BDF1B51581438300444DE2 /* Frameworks */,
+				10BDF1B61581438300444DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geodemo;
+			productName = geodemo;
+			productReference = 10BDF1B81581438300444DE2 /* geodemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10BDF1AF1581438300444DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 10BDF1B21581438300444DE2 /* Build configuration list for PBXProject "geodemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10BDF1AD1581438300444DE2;
+			productRefGroup = 10BDF1B91581438300444DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10BDF1B71581438300444DE2 /* geodemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10BDF1B61581438300444DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF1C71581438300444DE2 /* InfoPlist.strings in Resources */,
+				10BDF1D01581438300444DE2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10BDF1B41581438300444DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BDF1C91581438300444DE2 /* main.m in Sources */,
+				10BDF1CD1581438300444DE2 /* AppDelegate.m in Sources */,
+				10BDF1D31581438300444DE2 /* ViewController.m in Sources */,
+				10BDF1DF1581443700444DE2 /* CoreLocationController.m in Sources */,
+				10BDF2441582517C00444DE2 /* Constants.m in Sources */,
+				10BDF24715825A3D00444DE2 /* MapAnnotation.m in Sources */,
+				103E229A1587BD5400A9EAE9 /* NewPOIViewControllerViewController.m in Sources */,
+				103E22A91587C6B300A9EAE9 /* ServiceCaller.m in Sources */,
+				103E22AC1587C72F00A9EAE9 /* StateObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10BDF1C51581438300444DE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10BDF1C61581438300444DE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10BDF1CE1581438300444DE2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10BDF1CF1581438300444DE2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10BDF1D41581438300444DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10BDF1D51581438300444DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10BDF1D71581438300444DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geodemo/geodemo-Prefix.pch";
+				INFOPLIST_FILE = "geodemo/geodemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10BDF1D81581438300444DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geodemo/geodemo-Prefix.pch";
+				INFOPLIST_FILE = "geodemo/geodemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BDF1B21581438300444DE2 /* Build configuration list for PBXProject "geodemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BDF1D41581438300444DE2 /* Debug */,
+				10BDF1D51581438300444DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BDF1D61581438300444DE2 /* Build configuration list for PBXNativeTarget "geodemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BDF1D71581438300444DE2 /* Debug */,
+				10BDF1D81581438300444DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10BDF1AF1581438300444DE2 /* Project object */;
+}
