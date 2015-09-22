@@ -1,3 +1,9 @@
+---
+services:
+platforms:
+author: azure
+---
+
 # Geolocation - The iOS Client
 This is an iOS client for a Geolocation service.  The client depends on a web service backend written in PHP which is [available here](https://github.com/WindowsAzure-Samples/Geolocation-PHP-Service).  Once the PHP site is up and running in Windows Azure Websites, the iOS client will allow users to view their current location as well as any points tagged near them in addition to upload new points of interest.  This sample was built using XCode and the iOS Framework.
 
